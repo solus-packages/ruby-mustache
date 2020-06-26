@@ -2,17 +2,13 @@
     <Source>
         <Name>ruby-mustache</Name>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
         <Summary xml:lang="en">Mustache is a framework-agnostic way to render logic-free views.</Summary>
         <Description xml:lang="en">Inspired by ctemplate and et, Mustache is a framework-agnostic way to render logic-free views.
-
-As ctemplates says, &quot;It emphasizes separating logic from presentation: it is impossible to embed application logic in this template language.
-
-Think of Mustache as a replacement for your views. Instead of views consisting of ERB or HAML with random helpers and arbitrary logic, your views are broken into two parts: a Ruby class and an HTML template.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
@@ -20,98 +16,91 @@ Think of Mustache as a replacement for your views. Instead of views consisting o
         <Name>ruby-mustache</Name>
         <Summary xml:lang="en">Mustache is a framework-agnostic way to render logic-free views.</Summary>
         <Description xml:lang="en">Inspired by ctemplate and et, Mustache is a framework-agnostic way to render logic-free views.
-
-As ctemplates says, &quot;It emphasizes separating logic from presentation: it is impossible to embed application logic in this template language.
-
-Think of Mustache as a replacement for your views. Instead of views consisting of ERB or HAML with random helpers and arbitrary logic, your views are broken into two parts: a Ruby class and an HTML template.
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/bin/mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/context.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/context_miss.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/enumerable.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/generator.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/parser.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/settings.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/template.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/utils.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/lib/mustache/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.1</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.1.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.1.ron</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.5</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.5.html</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/man/mustache.5.ron</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/autoloading_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/comments.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/comments.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/complex_view.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/complex_view.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/crazy_recursive.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/crazy_recursive.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/delimiters.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/delimiters.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/dot_notation.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/dot_notation.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/double_section.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/double_section.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/escaped.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/escaped.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/inner_partial.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/inner_partial.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/inverted_section.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/inverted_section.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/lambda.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/lambda.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/liberal.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/liberal.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/method_missing.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/namespaced.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/namespaced.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/nested_objects.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/nested_objects.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/node.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/partial_with_module.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/partial_with_module.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/passenger.conf</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/passenger.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/recursive.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/recursive.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/simple.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/simple.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/simply_complicated.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/template_partial.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/template_partial.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/template_partial.txt</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/unescaped.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/unescaped.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/utf8.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/fixtures/utf8_partial.mustache</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/mustache_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/parser_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/partial_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/spec_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/mustache-1.1.0/test/template_test.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/mustache-1.1.0.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/bin/mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/context.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/context_miss.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/enumerable.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/generator.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/parser.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/settings.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/template.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/utils.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/lib/mustache/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.1</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.1.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.1.ron</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.5</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.5.html</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/man/mustache.5.ron</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/autoloading_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/comments.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/comments.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/complex_view.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/complex_view.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/crazy_recursive.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/crazy_recursive.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/delimiters.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/delimiters.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/dot_notation.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/dot_notation.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/double_section.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/double_section.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/escaped.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/escaped.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/inner_partial.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/inner_partial.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/inverted_section.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/inverted_section.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/lambda.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/lambda.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/liberal.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/liberal.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/method_missing.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/namespaced.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/namespaced.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/nested_objects.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/nested_objects.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/node.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/partial_with_module.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/partial_with_module.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/passenger.conf</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/passenger.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/recursive.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/recursive.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/simple.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/simple.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/simply_complicated.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/template_partial.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/template_partial.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/template_partial.txt</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/unescaped.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/unescaped.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/utf8.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/fixtures/utf8_partial.mustache</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/mustache_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/parser_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/partial_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/spec_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/mustache-1.1.1/test/template_test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/mustache-1.1.1.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2019-06-22</Date>
-            <Version>1.1.0</Version>
+        <Update release="2">
+            <Date>2020-06-26</Date>
+            <Version>1.1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

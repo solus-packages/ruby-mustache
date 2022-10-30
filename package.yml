@@ -1,15 +1,17 @@
 name       : ruby-mustache
 version    : 1.1.1
-release    : 3
+release    : 4
 source     :
     - https://github.com/mustache/mustache/archive/v1.1.1.tar.gz : 9ab4a9842a37d5278789ba26152b0b78f649e3020266809ec33610a89f7e65ea
+homepage   : https://rubygems.org/gems/mustache
 license    : MIT
 component  : programming.ruby
-summary    : Mustache is a framework-agnostic way to render logic-free views.
+summary    : Mustache is a framework-agnostic way to render logic-free views
 description: |
-    Inspired by ctemplate and et, Mustache is a framework-agnostic way to render logic-free views.
+    Inspired by ctemplate, Mustache is a framework-agnostic way to render logic-free views. As ctemplates says, "It emphasizes separating logic from presentation: it is impossible to embed application logic in this template language. Think of Mustache as a replacement for your views. Instead of views consisting of ERB or HAML with random helpers and arbitrary logic, your views are broken into two parts: a Ruby class and an HTML template.
+
 builddeps  :
-    - pkgconfig(ruby-3.0)
+    - pkgconfig(ruby-3.1)
 rundeps    :
     - ruby
 build      : |
